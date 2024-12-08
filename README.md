@@ -20,12 +20,12 @@ pip install -r requirements.txt
 pip install streamlit langchain langchain-community python-dotenv openai
 ```
 
-4. Create .env file with your OpenAI API key:
+4. Ensure that the your OpenAI API key is added to both the .env file in the root directory and the config.py file located in the src directory. :
 ```
 OPENAI_API_KEY=your_key_here
 ```
 
 5. Run the application:
 ```bash
-streamlit run src/frontend/app.py
+streamlit.exe run src/frontend/app.py
 ```
