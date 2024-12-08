@@ -16,6 +16,8 @@ source venv/bin/activate
 3. Install dependencies:
 ```bash
 pip install -r requirements.txt
+# if satisfied dependencies are not install by requirements.txt file
+pip install streamlit langchain langchain-community python-dotenv openai
 ```
 
 4. Create .env file with your OpenAI API key:
